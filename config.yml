@@ -13,7 +13,7 @@ lang: "en"
 plugins:
   # Automatically fetch Medium follower count
   - MediumFollowersCountPlugin:
-      username: zhgchgli
+      username: Palestinaleiren ved NTNU
   # Automatically fetch Github repo star count
   - GithubRepoStarsCountPlugin:
       - ZhgChgLi/ZMarkupParser
@@ -25,17 +25,17 @@ plugins:
 google_analytics_id:
 
 # HTML Title
-title: "ZhgChgLi's Links"
+title: "Leir-lenker"
 
 # Avatar image path
-avatar: "./images/profile.jpeg"
+avatar: ""
 
 # Name section text
-name: "@zhgchgli"
+name: "Palestinaleiren ved NTNU"
 
 # Tagline section text
 tagline: >-
-    An iOS, web, and automation developer from Taiwan 🇹🇼 who also loves sharing, traveling, and writing.
+    Siden er under konstruksjon! Teltaksjon drevet av studenter og ansatte ved NTNU siden November 2024.
 
 # List of links
 # icon: Use Font Awesome icons (https://fontawesome.com/search?o=r&m=free)
@@ -46,53 +46,53 @@ tagline: >-
 # target: `_blank` opens in a new tab, `_self` opens in the same frame
 links:
   - link:
-      icon: "fa-brands fa-medium"
-      text: "Tech Blog <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>"
-      url: "https://blog.zhgchg.li"
-      alt: "ZhgChgLi's Tech Blog"
-      title: "ZhgChgLi's Tech Blog"
+      icon: "fa-brands fa-discord"
+      text: "Bli med på Discord-serveren vår!"
+      url: "https://discord.com/channels/1286052698411761735/1303869387379572767"
+      alt: "Discord-server"
+      title: "Discord-server"
+      target: "_blank"
+   - link:
+      icon: "fa-solid fa-map"
+      text: "Her finner du oss!"
+      url: "https://"
+      alt: "Lenke 3"
+      title: "Lenke 3"
       target: "_blank"
   - link:
       icon: "fa-brands fa-medium"
-      text: "Travelog <span class='link-button-text'>({{vars.MediumFollowersCountPlugin}} Followers)</span>"
-      url: "https://medium.com/ztravel"
-      alt: "ZhgChgLi's Travelog"
-      title: "ZhgChgLi's Travelog"
-      target: "_blank"
-  - link:
-      icon: "fa-solid fa-rss"
-      text: "Website"
-      url: "https://zhgchg.li/"
-      alt: "ZhgChgLi's Website"
-      title: "ZhgChgLi's Website"
+      text: "Spleis"
+      url: "https://"
+      alt: "Spleis"
+      title: "Spleis"
       target: "_blank"
   - link:
       icon: "fa-brands fa-swift"
-      text: "ZMarkupParser <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/ZMarkupParser']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/ZMarkupParser"
-      alt: "ZMarkupParser is a pure-Swift library that helps you to convert HTML strings to NSAttributedString with customized style and tags."
-      title: "ZMarkupParser is a pure-Swift library that helps you to convert HTML strings to NSAttributedString with customized style and tags."
+      text: "Lenke 4"
+      url: "https"
+      alt: "Lenke 4"
+      title: "Lenke 4"
       target: "_blank"
   - link:
       icon: "fa-brands fa-app-store-ios"
-      text: "ZReviewTender <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/ZReviewTender']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/ZReviewTender"
-      alt: "ZReviewTender is a tool for fetching app reviews from the App Store and Google Play Console and integrating them into your workflow."
-      title: "ZReviewTender is a tool for fetching app reviews from the App Store and Google Play Console and integrating them into your workflow."
+      text: "Lenke 5"
+      url: "https://"
+      alt: "Lenke 5"
+      title: "Lenke 5."
       target: "_blank"
   - link:
       icon: "fa-brands fa-markdown"
-      text: "ZMediumToMarkdown <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/ZMediumToMarkdown']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/ZMediumToMarkdown"
-      alt: "ZMediumToMarkdown is a powerful tool that allows you to effortlessly download and convert your Medium posts to Markdown format."
-      title: "ZMediumToMarkdown is a powerful tool that allows you to effortlessly download and convert your Medium posts to Markdown format."
+      text: "Lenke 6"
+      url: "https://"
+      alt: "Lenke 6 tekst"
+      title: "Lenke 6."
       target: "_blank"
   - link:
       icon: "fa-brands fa-github"
-      text: "linkyee <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/linkyee']}} Stars)</span>"
-      url: "https://github.com/ZhgChgLi/linkyee"
-      alt: "linkyee is a fully customized, open-source LinkTree alternative deployed directly on GitHub Pages."
-      title: "linkyee is a fully customized, open-source LinkTree alternative deployed directly on GitHub Pages."
+      text: "Lenke 7"
+      url: "https://"
+      alt: "Lenke 7."
+      title: "Lenke 7."
       target: "_blank"
 
 
@@ -104,47 +104,35 @@ links:
 # target: _blank opens in a new tab, _self opens in the same frame
 socials:
   - social:
-      icon: "fa-brands fa-medium"
-      url: "https://blog.zhgchg.li"
-      title: "ZhgChgLi's Medium"
-      alt: "ZhgChgLi's Medium"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-github"
-      url: "https://github.com/ZhgChgLi"
-      title: "ZhgChgLi's GitHub"
-      alt: "ZhgChgLi's GitHub"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-twitter"
-      url: "https://twitter.com/zhgchgli"
-      title: "ZhgChgLi's Twitter"
-      alt: "ZhgChgLi's Twitter"
-      target: "_blank"
-  - social:
-      icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/zhgchgli/"
-      title: "ZhgChgLi's LinkedIn"
-      alt: "ZhgChgLi's LinkedIn"
-      target: "_blank"
-  - social:
       icon: "fa-brands fa-instagram"
-      url: "https://www.instagram.com/zhgchgli/"
+      url: "https://www.instagram.com/palestinaleiren.ntnu"
       title: "Instagram"
-      alt: "ZhgChgLi's Instagram"
+      alt: "NTNU Palestinaleir Instagram"
+      target: "_blank"
+  - social:
+      icon: "fa-brands fa-facebook"
+      url: "https://www.facebook.com/profile.php?id=61573854163020"
+      title: "Facebook"
+      alt: "NTNU Palestinaleir Facebook"
+      target: "_blank"      
+   - social:
+      icon: "fa-brands fa-snapchat"
+      url: "https://"
+      title: "Facebook"
+      alt: "NTNU Palestinaleir snapchat"
       target: "_blank"
   - social:
       icon: "fa-solid fa-envelope"
-      url: "mailto:zhgchgli@gmail.com"
-      title: "Email: zhgchgli@gmail.com"
-      alt: "zhgchgli@gmail.com"
+      url: "mailto:ntnu.encampment@proton.me"
+      title: "Email: ntnu.encampment@proton.me"
+      alt: "ntnu.encampment@proton.me"
       target: "_blank"
 
 # Footer text
 footer: >
-    Hi there! Follow me on Medium or GitHub, or stay connected on Instagram or LinkedIn.
+    Heisann! Følg oss på Instagram, Facebook eller Snap.
 
 # Footer copyright message
 # Linkyee is a 100% free, open-source project—feel free to modify the copyright message as you like. :)
 copyright: >
-  © 2024  <a href="https://zhgchg.li" target="_blank">ZhgChgLi</a>. Powered by <a href="https://github.com/ZhgChgLi/linkyee" target="_blank">linkyee</a>
+  © 2025  <a href="https://" target="_blank">Palestinaleiren ved NTNU</a>. Powered by <a href="https://github.com/ZhgChgLi/linkyee" target="_blank">linkyee</a>
