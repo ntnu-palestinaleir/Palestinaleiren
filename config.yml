@@ -16,6 +16,10 @@ plugins:
       username: 
   # Automatically fetch Github repo star count
   - GithubRepoStarsCountPlugin:
+      - ZhgChgLi/ZMarkupParser
+      - ZhgChgLi/ZReviewTender
+      - ZhgChgLi/ZMediumToMarkdown
+      - ZhgChgLi/linkyee
 
 # Google Analytics tracking id
 google_analytics_id:
