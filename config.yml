@@ -4,7 +4,7 @@
 theme: default
 
 # HTML Language setting
-lang: "en"
+lang: "nb"
 
 # Plugins, implemented in ./plugins/PLUGIN_NAME
 # Use {{ vars.PLUGIN_NAME }} in the settings below
