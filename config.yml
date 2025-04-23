@@ -46,13 +46,13 @@ tagline: >-
 # target: `_blank` opens in a new tab, `_self` opens in the same frame
 links:
   - link:
-      icon: "fa-brands fa-discord"
+      icon: "fa-brands fa-comments-o"
       text: "Bli med på Discord-serveren vår!"
       url: "https://discord.com/channels/1286052698411761735/1303869387379572767"
       alt: "Discord-server"
       title: "Discord-server"
       target: "_blank"
-   - link:
+  - link:
       icon: "fa-solid fa-map"
       text: "Her finner du oss!"
       url: "https://"
