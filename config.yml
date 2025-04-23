@@ -60,9 +60,9 @@ links:
       title: "Lenke 3"
       target: "_blank"
   - link:
-      icon: "fa-brands fa-medium"
+      icon: "fa-brands fa-heart"
       text: "Spleis"
-      url: "https://"
+      url: "https://www.spleis.no/project/418850"
       alt: "Spleis"
       title: "Spleis"
       target: "_blank"
