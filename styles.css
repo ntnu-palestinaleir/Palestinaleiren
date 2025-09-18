@@ -25,6 +25,10 @@ a {
   transition: color 0.3s;
 }
 
+p {
+  margin-bottom: 2em; /* øker lufta mellom avsnitt */
+}
+
 .container {
   width: 90%;
   max-width: 450px;
