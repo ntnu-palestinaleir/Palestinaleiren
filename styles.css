@@ -8,8 +8,8 @@
 
 /* Light mode (default) */
 body {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #F7F1D7;
+  color: #28332B;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@ p {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
-  border: 2px solid black;
+  border: 0px solid black;
 }
 
 .name {
@@ -53,7 +53,7 @@ p {
   font-size: 16px;
   margin-bottom: 30px;
   line-height: 1.6;
-  color: #555;
+  color: #B02221;
 }
 
 .links {
@@ -67,7 +67,7 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background-color: #f0f0f0;
+  background-color: #C6AB96;
   color: black;
   padding: 15px;
   border-radius: 8px;
@@ -77,7 +77,7 @@ p {
 }
 
 .link-button:hover {
-  background-color: #e0e0e0;
+  background-color: #B02221;
   transform: scale(1.05);
 }
 
@@ -109,7 +109,7 @@ p {
   cursor: pointer;
   transition: transform 0.2s;
   background: none;
-  color: black;
+  color: #B02221;
 }
 
 .icon-button i {
@@ -118,7 +118,7 @@ p {
 
 .icon-button:hover {
   transform: scale(1.1);
-  color: #666;
+  color: #F7F1D7;
 }
 
 .icon-button:active {
@@ -127,7 +127,12 @@ p {
 
 .link-button-text {
   font-size: 14px;
-  color: #777;
+  color: #F7F1D7;
+}
+
+.link-button-text:hover {
+  font-size: 14px;
+  color: #B02221;
 }
 
 .copyright {
@@ -151,16 +156,16 @@ p {
   }
 
   .description {
-    color: #c9d1d9;
+    color: #F7F1D7;
   }
 
   .link-button {
-    background-color: #21262d;
-    color: white;
+    background-color: #C6AB96;
+    color: #F7F1D7;
   }
 
   .link-button:hover {
-    background-color: #30363d;
+    background-color: #F7F1D7;
   }
 
   .icon-button {
@@ -168,10 +173,10 @@ p {
   }
 
   .footer {
-    color: #8b949e;
+    color: #F7F1D7;
   }
 
   .link-button-text {
-    color: #8b949e;
+    color: #F7F1D7;
   }
 }
