@@ -141,9 +141,9 @@ p {
 }
 
 /* Dark mode */
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   body {
-    background-color: #0d1117;
+    background-color:  #F7F1D7;
     color: white;
   }
 
