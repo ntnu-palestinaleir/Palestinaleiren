@@ -1,40 +1,45 @@
+/* ===============================
+   Base Styles
+   =============================== */
+
 body {
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #222222;
-    margin: 16px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #222222;
+  margin: 16px;
 }
 
 p, li {
-    line-height: 1.6em;
+  line-height: 1.6em;
 }
 
 p {
-    margin: 0.8em 0;
+  margin: 0.8em 0;
 }
 
 a {
-    color: #0060a0;
-    text-decoration: none;
-    border-bottom: 1px solid rgba(0, 96, 160, 0.2);
+  color: #0060a0;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 96, 160, 0.2);
 }
 a:hover {
-    color: #d04000;
-    border-bottom-color: rgba(208, 64, 0, 0.2);
+  color: #d04000;
+  border-bottom-color: rgba(208, 64, 0, 0.2);
 }
 h1 a {
-    border-bottom-width: 2px;
+  border-bottom-width: 2px;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .site-container {
-    max-width: 640px;
-    margin: 4em auto 6em auto;
-  }
+  max-width: 640px;
+  margin: 4em auto 6em auto;
 }
+
 /* ===============================
    "Om oss" Section Layout Styles
    =============================== 
@@ -69,4 +74,36 @@ img {
   .about-image {
     margin-top: 1.5em; /* Add space between text and image */
   }
+}
+
+/* ===============================
+   Custom Font Styling
+   ===============================
+   - Headings (h1–h6): "Times New Roman" for a classic, academic tone.
+     * h1: Thin, refined title.
+     * Other headings: Bold for clarity.
+   - Body: "Quicksand" for modern readability.
+*/
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300; /* Light look for main title */
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: #111;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: #111;
+}
+
+p, li {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6em;
 }
