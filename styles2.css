@@ -33,4 +33,40 @@ img {
 .site-container {
     max-width: 640px;
     margin: 4em auto 6em auto;
+  }
+}
+/* ===============================
+   "Om oss" Section Layout Styles
+   =============================== 
+   Creates a two-column grid layout:
+   - Left side: Text content
+   - Right side: Image
+   Automatically stacks vertically on small screens.
+*/
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  align-items: start;             /* Align items at the top */
+  gap: 24px;                      /* Space between text and image */
+  margin-top: 2em;                /* Breathing room above section */
+}
+
+/* Image styling — responsive with rounded corners and subtle shadow */
+.about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Responsive layout: stack text and image on smaller screens */
+@media (max-width: 700px) {
+  .about-container {
+    grid-template-columns: 1fr; /* Single column on mobile */
+  }
+
+  .about-image {
+    margin-top: 1.5em; /* Add space between text and image */
+  }
 }
