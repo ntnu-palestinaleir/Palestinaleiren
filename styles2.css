@@ -52,7 +52,7 @@ img {
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-  align-items: start;             /* Align items at the top */
+  align-items: center;             /* Align items at the center */
   gap: 24px;                      /* Space between text and image */
   margin-top: 2em;                /* Breathing room above section */
 }
