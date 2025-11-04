@@ -110,7 +110,7 @@ p, li {
 }
 
 /* Back-button From Uiverse.io by Jedi-hongbin */ 
-button {
+.back-button {
  display: flex;
  height: 3em;
  width: 100px;
@@ -125,7 +125,7 @@ button {
  background: #fff;
 }
 
-button > svg {
+.back-button > svg {
  margin-right: 5px;
  margin-left: 5px;
  font-size: 18px;
@@ -133,12 +133,13 @@ button > svg {
  transition: all 0.4s ease-in;
 }
 
-button:hover > svg {
+.back-button:hover > svg {
  font-size: 1.2em;
  transform: translateX(-5px);
 }
 
-button:hover {
+.back-button:hover {
  box-shadow: 9px 9px 33px #edb6ac, -9px -9px 33px #ffffff;
  transform: translateY(-2px);
+}
 }
