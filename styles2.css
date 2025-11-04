@@ -108,3 +108,37 @@ p, li {
   font-weight: 400;
   line-height: 1.6em;
 }
+
+/* Back-button From Uiverse.io by Jedi-hongbin */ 
+button {
+ display: flex;
+ height: 3em;
+ width: 100px;
+ align-items: center;
+ justify-content: center;
+ background-color: #dbe3fd;
+ border-radius: 3px;
+ letter-spacing: 1px;
+ transition: all 0.2s linear;
+ cursor: pointer;
+ border: none;
+ background: #fff;
+}
+
+button > svg {
+ margin-right: 5px;
+ margin-left: 5px;
+ font-size: 18px;
+  font-weight: 200;
+ transition: all 0.4s ease-in;
+}
+
+button:hover > svg {
+ font-size: 1.2em;
+ transform: translateX(-5px);
+}
+
+button:hover {
+ box-shadow: 9px 9px 33px #edb6ac, -9px -9px 33px #ffffff;
+ transform: translateY(-2px);
+}
