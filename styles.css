@@ -223,7 +223,7 @@ button {
  width: 100px;
  align-items: center;
  justify-content: center;
- background-color: #eeeeee4b;
+ background-color: #dbe3fd;
  border-radius: 3px;
  letter-spacing: 1px;
  transition: all 0.2s linear;
@@ -235,7 +235,8 @@ button {
 button > svg {
  margin-right: 5px;
  margin-left: 5px;
- font-size: 20px;
+ font-size: 18px;
+  font-weight: 200;
  transition: all 0.4s ease-in;
 }
 
@@ -245,7 +246,7 @@ button:hover > svg {
 }
 
 button:hover {
- box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+ box-shadow: 9px 9px 33px #edb6ac, -9px -9px 33px #ffffff;
  transform: translateY(-2px);
 }
 }
