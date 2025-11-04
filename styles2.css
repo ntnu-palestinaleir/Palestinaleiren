@@ -142,4 +142,12 @@ p, li {
  box-shadow: 9px 9px 33px #edb6ac, -9px -9px 33px #ffffff;
  transform: translateY(-2px);
 }
+
+/* Calendar */
+.calendar-container {
+    max-width: 800px;     /* optional, limits width */
+    margin: 120px auto 60px auto; /* top 120px, bottom 60px, auto horizontal centers it */
+    padding: 0 10px;      /* optional, small side padding */
+}
+
 }
