@@ -1,4 +1,6 @@
 # 🇵🇸 NTNU Palestine Student Encampment – “Link-in-bio” Page
+**Live site:** **[https://ntnu-palestinaleir.github.io/Palestinaleiren](https://ntnu-palestinaleir.github.io/Palestinaleiren)**
+
 
 This repository contains the simple “link-in-bio” website for the **Palestinian Solidarity Camp at NTNU**. The site acts as an accessible hub with updated information about the encampment, upcoming events, social media, and other relevant resources.
 
